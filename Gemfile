@@ -19,4 +19,7 @@ group :development, :test do
   gem 'poltergeist'
   gem 'rails-assets-sinonjs'
   gem 'rails-assets-ember-mocha-adapter'
+  gem 'factory_girl_rails'
+  gem 'forgery'
+  gem 'pry'
 end
