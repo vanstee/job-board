@@ -12,6 +12,7 @@ gem 'jquery-rails'
 gem 'ember-rails'
 gem 'ember-source', '1.4.0'
 gem 'devise'
+gem 'doorkeeper'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.99.0.beta'

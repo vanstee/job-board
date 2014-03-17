@@ -52,6 +52,8 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    doorkeeper (1.0.0)
+      railties (>= 3.1)
     ember-data-source (0.14)
       ember-source
     ember-rails (0.14.1)
@@ -187,6 +189,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   devise
+  doorkeeper
   ember-rails
   ember-source (= 1.4.0)
   factory_girl_rails
