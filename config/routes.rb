@@ -3,7 +3,7 @@ JobBoard::Application.routes.draw do
   devise_for :users, skip: :all
 
   defaults format: :json do
-    resources :jobs, only: [:index]
+    resources :jobs, only: [:index, :create, :show]
   end
 
   defaults format: :html do
