@@ -4,6 +4,7 @@ JobBoard::Application.routes.draw do
 
   defaults format: :json do
     resources :jobs, only: [:index, :create, :show]
+    resources :users, only: [:create, :show]
   end
 
   defaults format: :html do
