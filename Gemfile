@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'ember-rails'
 gem 'ember-source', '1.4.0'
+gem 'devise'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.99.0.beta'
