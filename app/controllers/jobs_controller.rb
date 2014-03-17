@@ -1,4 +1,6 @@
 class JobsController < ApplicationController
+  doorkeeper_for :create
+
   respond_to :json
 
   def index
